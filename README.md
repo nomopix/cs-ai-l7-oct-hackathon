@@ -30,7 +30,7 @@ Our team of 6 split into 3 pairs for increased efficiency, each pair focusing on
 
 ### ROC scores: ​
 
-- Ensemble ROC Score:  (KNN) 0.812 / (NB) 0.813​
+- Ensemble ROC Score:  (RF, LR, KNN) 0.812 / (RF, LR, NB) 0.813​
 - Naïve Bayes ROC Score: 0.812​
 - Random Forest ROC Score:  0.808​
 - Logistic Regression ROC Score:  0.802​
