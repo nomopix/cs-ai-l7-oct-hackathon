@@ -23,6 +23,9 @@ Our team of 6 split into 3 pairs for increased efficiency, each pair focusing on
 5) Ensemble (voting – majority vote wins)
 
 ## Data Preprocessing
+- Converted  odd strings of numbers to integers 
+- Converted "None" values to integer 2 
+- One-hot-encoded the data 
 
 ## Results
 - Encoding "none" would provide better results than removing them​
