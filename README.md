@@ -22,7 +22,7 @@ Our team of 6 split into 3 pairs for increased efficiency, each pair focusing on
 4) K-Nearest-Neighbours (KNN)​
 5) Ensemble (voting – majority vote wins)
 
-## Data Preprocessiong
+## Data Preprocessing
 
 ## Results
 - Encoding "none" would provide better results than removing them​
@@ -50,5 +50,9 @@ Ensemble:  RF, LR, NB -> 0.813​
 4. Sohail Mahmood​
 5. Stuart Jennings​
 6. Yu Bian​
+
+## License
+
+[MIT License](LICENSE)
 
 ​
