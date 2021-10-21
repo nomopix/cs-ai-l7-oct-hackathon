@@ -2,28 +2,53 @@
 
 This repository is for the hackathon held on 20th and 21st of October 2021. 
 
+## Background
+In a 2-day hackathon, as part of our learning in AI Level 7 apprenticeship, we have  worked on building a machine learning model to predict COVID-19 test results based on reported symptoms, inspired by this paper publication: ​
 
-1) Base line:
-    All features, 'None' as a value, no overrides
+https://www.nature.com/articles/s41746-020-00372-6
 
-    LR score train:  0.8990602419946635
-    LR score valid:  0.82602918308811
+## Aim
+COVID-19 is stretching our healthcare resources, and we are aiming to build a model that provides insight around how to better utilize these resources.
 
-    DTC score train:  0.9197129777640092
-    DTC score valid:  0.8166051160298665
+## Approach
+Building a machine learning model that detects COVID-19 cases from simple features accessed by completed surveys (containing 8 True/False questions). 
 
-    RF score train:  0.9196520288122647
-    RF score valid:  0.8424296911537992
+Our team of 6 split into 3 pairs for increased efficiency, each pair focusing on a different machine learning model before creating an ensemble together.
 
-    knn score train:  0.8721130623224342
-    knn score valid:  0.7904165154306139
-2) 
+## Methods
+1) Logistic Regression​
+2) Decesion Tree​
+3) Random Forest​
+4) K-Nearest-Neighbours (KNN)​
+5) Ensemble (voting – majority vote wins)
 
+## Data Preprocessiong
 
+## Results
+- Encoding "none" would provide better results than removing them​
+- Ensemble: Depending on the selection the outcome would be worst as other models​
 
+### ROC scores: ​
 
-For the ensemble:
-https://scikit-learn.org/stable/modules/ensemble.html#voting-classifier
+- Ensemble ROC Score:  (KNN) 0.812 / (NB) 0.813​
+- Naïve Bayes ROC Score: 0.812​
+- Random Forest ROC Score:  0.808​
+- Logistic Regression ROC Score:  0.802​
+- Decision Tree ROC Score:  0.785​
+- KNN ROC Score: 0.783​
+- Random Guessing ROC Score:  0.500​
+​
+### BEST ROC Score​
 
+Ensemble:  RF, LR, NB -> 0.813​
 
-best parameters for knn: n_neighbors = 3, weights = 'uniform', metric ='euclidean'
+## OUR TEAM​
+
+1. Dominic van der Pas​
+2. Gian Giacomo Valentini​
+3. Noemi Moreno Fabelo​
+4. Sohail Mahmood​
+5. Stuart Jennings​
+6. Yu Bian​
+
+​
